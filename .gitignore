@@ -1,2 +1,8 @@
 # Dependecies directory
 node_modules/
+
+# Build directory
+build/
+
+# Others
+.eslintcache
