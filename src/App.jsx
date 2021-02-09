@@ -1,5 +1,6 @@
 import React from 'react';
 import Counter from './components/Counter';
+import Jotto from './components/Jotto';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <Counter /> */}
+        <Jotto />
       </header>
     </div>
   );
