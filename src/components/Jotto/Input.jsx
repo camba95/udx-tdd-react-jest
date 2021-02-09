@@ -4,11 +4,9 @@ import { connect } from 'react-redux';
 class Input extends Component {
   render() {
     const { success } = this.props;
-    if (success) {
-      return null;
-    }
-    return (
-      <div data-test="component-input">
+    let content = null;
+    if (!success) {
+      content = (
         <form className="form-inline">
           <input
             data-test="input-box"
@@ -24,6 +22,11 @@ class Input extends Component {
             Submit
           </button>
         </form>
+      );
+    }
+    return (
+      <div data-test="component-input">
+        {content}
       </div>
     );
   }
