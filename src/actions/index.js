@@ -1,7 +1,10 @@
 export const actionTypes = {
-  CORRECT_GUESS: 'CORRECT_GUESS'
+  CORRECT_GUESS: 'CORRECT_GUESS',
+  GUESS_WORD: 'GUESS_WORD'
 };
 
-export const correctGuess = () => ({
-  type: actionTypes.CORRECT_GUESS
-});
+export const guessWord = () => {
+  return (dispatch, getState) => {
+
+  };
+}
