@@ -4,13 +4,15 @@ import PropTypes from 'prop-types';
 const Congrats = (props) => {
   const { success } = props;
   return (
-    <div data-test="component-congrats" className="alert alert-success">
+    <>
       {success && (
-        <span data-test="congrats-message">
-          Congratulations! you guessed the word!
+        <div data-test="component-congrats" className="alert alert-success">
+          <span data-test="congrats-message">
+            Congratulations! you guessed the word!
         </span>
+        </div>
       )}
-    </div>
+    </>
   );
 };
 
