@@ -5,7 +5,12 @@ import Congrats from './Congrats';
 import Input from './Input';
 import { getSecretWord } from '../../actions';
 
-class Jotto extends Component {
+export class Jotto extends Component {
+
+  componentDidMount() {
+    this.props.getSecretWord();
+  }
+
   render() {
     const { success, guessedWords } = this.props;
     return (
