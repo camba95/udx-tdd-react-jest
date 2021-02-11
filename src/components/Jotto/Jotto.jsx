@@ -21,7 +21,8 @@ class Jotto extends Component {
 
 const mapStateToProps = (state) => ({
   success: state.success,
-  guessedWords: state.guessedWords
+  guessedWords: state.guessedWords,
+  secretWord: state.secretWord
 });
 
 export default connect(mapStateToProps, { getSecretWord })(Jotto);
