@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^12.1.10",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.0",
     "babel-loader": "8.1.0",
@@ -54,7 +55,10 @@
     "react-app-polyfill": "^2.0.0",
     "react-dev-utils": "^11.0.1",
     "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
     "react-refresh": "^0.8.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "8.0.2",
@@ -98,7 +102,8 @@
     "babel-plugin-react-remove-properties": "^0.3.0",
     "check-prop-types": "^1.1.2",
     "enzyme": "^3.11.0",
-    "jest-enzyme": "^7.1.2"
+    "jest-enzyme": "^7.1.2",
+    "moxios": "^0.4.0"
   },
   "jest": {
     "roots": [
